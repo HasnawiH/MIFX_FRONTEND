@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => getProduct(), []);
 
-  //API CORS ORIGIN
+  //API Kena CORS ORIGIN
   const getProduct = async () => {
     try {
       let response = await axios.get(`${baseUrl}/products`, {
